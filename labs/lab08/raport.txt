@@ -1,0 +1,2 @@
+Wykonano tylko zadanie 1. W celu jego uruchomienia nalezy wywolac
+komende 'make' a nastepnie './life'.

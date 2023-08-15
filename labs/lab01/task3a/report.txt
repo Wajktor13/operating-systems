@@ -1,0 +1,4 @@
+Aby uruchomić testy należy wpisać komendę "make run_tests".
+
+Analizując wyniki testów, można stwierdzić, że najszybszy jest repl
+wykorzystujący bibliotekę static, następnie - dll, a najwolnijeszy - shared.

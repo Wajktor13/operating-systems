@@ -1,0 +1,151 @@
+
+REPL >>> created storage with size: 1024
+---------------
+execution time:
+real: 57270 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 0
+---------------
+execution time:
+real: 2447309 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 1
+---------------
+execution time:
+real: 2161728 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 2
+---------------
+execution time:
+real: -998180635 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 3
+---------------
+execution time:
+real: 2221442 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 4
+---------------
+execution time:
+real: 3572872 ns
+user: 1
+system: 0
+
+REPL >>> output has been written to block at index: 5
+---------------
+execution time:
+real: 2383964 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 6
+---------------
+execution time:
+real: 2761455 ns
+user: 0
+system: 0
+
+REPL >>>  36  79 858 dll_lib_loader.h
+
+---------------
+execution time:
+real: 34362 ns
+user: 0
+system: 0
+
+REPL >>>  146  351 3496 libbm.c
+
+---------------
+execution time:
+real: 38971 ns
+user: 0
+system: 0
+
+REPL >>>  45  69 864 libbm.h
+
+---------------
+execution time:
+real: 37225 ns
+user: 0
+system: 0
+
+REPL >>>   88  233 1794 Makefile
+1
+---------------
+execution time:
+real: 38971 ns
+user: 0
+system: 0
+
+REPL >>>  164  479 5515 repl.c
+
+---------------
+execution time:
+real: 49099 ns
+user: 0
+system: 0
+
+REPL >>> 
+---------------
+execution time:
+real: 51613 ns
+user: 0
+system: 0
+
+REPL >>> deleted block at index: 1
+---------------
+execution time:
+real: 43791 ns
+user: 0
+system: 0
+
+REPL >>> deleted block at index: 2
+---------------
+execution time:
+real: 37296 ns
+user: 0
+system: 0
+
+REPL >>> deleted block at index: 3
+---------------
+execution time:
+real: 39042 ns
+user: 0
+system: 0
+
+REPL >>> deleted block at index: 4
+---------------
+execution time:
+real: 38274 ns
+user: 0
+system: 0
+
+REPL >>> deleted block at index: 5
+---------------
+execution time:
+real: 38622 ns
+user: 0
+system: 0
+
+REPL >>> storage has been destroyed
+---------------
+execution time:
+real: 42394 ns
+user: 0
+system: 0
+
+REPL >>> ---------------
+execution time:
+real: 37644 ns
+user: 0
+system: 0

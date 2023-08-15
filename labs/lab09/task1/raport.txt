@@ -1,0 +1,373 @@
+Zadanie wykonano w wersji pelnej (Mikolaj + renifery + elfy)
+Program nalezy skompilowac poleceniem make, a nastepnie uruchomic poleceniem ./main.
+
+Wynik przykładowego uruchomienia programu:
+
+[reindeer9317] going on vacation for 9 seconds
+[reindeer9321] going on vacation for 8 seconds
+[reindeer9323] going on vacation for 8 seconds
+[reindeer9319] going on vacation for 5 seconds
+[reindeer9324] going on vacation for 7 seconds
+[reindeer9320] going on vacation for 6 seconds
+[reindeer9318] going on vacation for 9 seconds
+[elf9326] working for 2 seconds
+[reindeer9322] going on vacation for 7 seconds
+[elf9327] working for 2 seconds
+[elf9328] working for 3 seconds
+[elf9329] working for 3 seconds
+[reindeer9325] going on vacation for 5 seconds
+[elf9330] working for 3 seconds
+[elf9331] working for 2 seconds
+[elf9333] working for 4 seconds
+[elf9332] working for 4 seconds
+[elf9335] working for 3 seconds
+[elf9334] working for 2 seconds
+[elf9326] encountered a problem
+[elf9326] waiting for help. Currently 1 elves are waiting
+[elf9327] encountered a problem
+[elf9327] waiting for help. Currently 2 elves are waiting
+[elf9331] encountered a problem
+[elf9331] waiting for help. Currently 3 elves are waiting
+[elf9331] waking up santa
+[elf9331] working for 4 seconds
+[elf9326] working for 2 seconds
+[elf9334] encountered a problem
+[elf9334] santa not available, solving the problem on his own
+[elf9334] working for 2 seconds
+[elf9327] working for 2 seconds
+[santa] waking up
+[santa] helping elves for 2 seconds
+[santa] helping elves done
+[elf9328] encountered a problem
+[elf9328] waiting for help. Currently 1 elves are waiting
+[elf9329] encountered a problem
+[elf9329] waiting for help. Currently 2 elves are waiting
+[elf9335] encountered a problem
+[elf9335] waiting for help. Currently 3 elves are waiting
+[elf9335] waking up santa
+[elf9335] working for 2 seconds
+[elf9333] encountered a problem
+[elf9333] santa not available, solving the problem on his own
+[elf9328] working for 3 seconds
+[elf9332] encountered a problem
+[elf9332] santa not available, solving the problem on his own
+[elf9332] working for 3 seconds
+[elf9334] encountered a problem
+[elf9334] santa not available, solving the problem on his own
+[elf9334] working for 3 seconds
+[elf9327] encountered a problem
+[elf9327] santa not available, solving the problem on his own
+[elf9327] working for 2 seconds
+[santa] waking up
+[santa] helping elves for 2 seconds
+[reindeer9319] came back from vacation. Currently 1 reindeers are waiting
+[reindeer9325] came back from vacation. Currently 2 reindeers are waiting
+[reindeer9320] came back from vacation. Currently 3 reindeers are waiting
+[santa] helping elves done
+[elf9330] encountered a problem
+[elf9330] waiting for help. Currently 1 elves are waiting
+[elf9329] working for 3 seconds
+[elf9333] working for 4 seconds
+[elf9326] encountered a problem
+[elf9326] waiting for help. Currently 2 elves are waiting
+[elf9331] encountered a problem
+[elf9331] waiting for help. Currently 3 elves are waiting
+[elf9331] waking up santa
+[elf9331] working for 4 seconds
+[elf9330] working for 4 seconds
+[elf9327] encountered a problem
+[elf9327] santa not available, solving the problem on his own
+[elf9327] working for 2 seconds
+[santa] waking up
+[santa] helping elves for 1 seconds
+[reindeer9324] came back from vacation. Currently 4 reindeers are waiting
+[reindeer9322] came back from vacation. Currently 5 reindeers are waiting
+[santa] helping elves done
+[elf9335] encountered a problem
+[elf9335] waiting for help. Currently 1 elves are waiting
+[elf9326] working for 3 seconds
+[elf9328] encountered a problem
+[elf9328] waiting for help. Currently 2 elves are waiting
+[elf9332] encountered a problem
+[elf9332] waiting for help. Currently 3 elves are waiting
+[elf9332] waking up santa
+[elf9332] working for 3 seconds
+[elf9328] working for 4 seconds
+[santa] waking up
+[santa] helping elves for 2 seconds
+[reindeer9321] came back from vacation. Currently 6 reindeers are waiting
+[reindeer9323] came back from vacation. Currently 7 reindeers are waiting
+[reindeer9318] came back from vacation. Currently 8 reindeers are waiting
+[reindeer9317] came back from vacation. Currently 9 reindeers are waiting
+[reindeer9317] waking up santa
+[reindeer9317] going on vacation for 5 seconds
+[reindeer9321] going on vacation for 6 seconds
+[reindeer9323] going on vacation for 6 seconds
+[reindeer9320] going on vacation for 9 seconds
+[reindeer9319] going on vacation for 6 seconds
+[reindeer9318] going on vacation for 10 seconds
+[reindeer9322] going on vacation for 7 seconds
+[reindeer9325] going on vacation for 8 seconds
+[reindeer9324] going on vacation for 7 seconds
+[santa] helping elves done
+[santa] waking up
+[santa] delivering toys for 3 seconds
+[elf9334] encountered a problem
+[elf9334] waiting for help. Currently 1 elves are waiting
+[elf9335] working for 4 seconds
+[elf9327] encountered a problem
+[elf9327] waiting for help. Currently 2 elves are waiting
+[elf9329] encountered a problem
+[elf9329] waiting for help. Currently 3 elves are waiting
+[elf9329] waking up santa
+[elf9329] working for 4 seconds
+[elf9327] working for 2 seconds
+[elf9334] working for 3 seconds
+[elf9331] encountered a problem
+[elf9331] santa not available, solving the problem on his own
+[elf9331] working for 4 seconds
+[elf9330] encountered a problem
+[elf9330] santa not available, solving the problem on his own
+[elf9330] working for 4 seconds
+[elf9333] encountered a problem
+[elf9333] santa not available, solving the problem on his own
+[elf9333] working for 4 seconds
+[elf9326] encountered a problem
+[elf9326] santa not available, solving the problem on his own
+[elf9326] working for 3 seconds
+[elf9332] encountered a problem
+[elf9332] santa not available, solving the problem on his own
+[elf9332] working for 3 seconds
+[elf9328] encountered a problem
+[elf9328] santa not available, solving the problem on his own
+[elf9328] working for 3 seconds
+[elf9327] encountered a problem
+[elf9327] santa not available, solving the problem on his own
+[elf9327] working for 4 seconds
+[santa] delivering toys done. Total deliveries: 1
+[santa] waking up
+[santa] helping elves for 2 seconds
+[reindeer9317] came back from vacation. Currently 1 reindeers are waiting
+[santa] helping elves done
+[elf9334] encountered a problem
+[elf9334] waiting for help. Currently 1 elves are waiting
+[elf9328] encountered a problem
+[elf9328] waiting for help. Currently 2 elves are waiting
+[elf9326] encountered a problem
+[elf9326] waiting for help. Currently 3 elves are waiting
+[elf9326] waking up santa
+[elf9326] working for 2 seconds
+[elf9335] encountered a problem
+[elf9335] santa not available, solving the problem on his own
+[elf9335] working for 4 seconds
+[elf9329] encountered a problem
+[elf9329] santa not available, solving the problem on his own
+[elf9329] working for 2 seconds
+[elf9331] encountered a problem
+[elf9331] santa not available, solving the problem on his own
+[elf9331] working for 2 seconds
+[elf9330] encountered a problem
+[elf9330] santa not available, solving the problem on his own
+[elf9330] working for 3 seconds
+[elf9333] encountered a problem
+[elf9333] santa not available, solving the problem on his own
+[elf9333] working for 4 seconds
+[santa] waking up
+[santa] helping elves for 2 seconds
+[reindeer9319] came back from vacation. Currently 2 reindeers are waiting
+[reindeer9323] came back from vacation. Currently 3 reindeers are waiting
+[reindeer9321] came back from vacation. Currently 4 reindeers are waiting
+[reindeer9322] came back from vacation. Currently 5 reindeers are waiting
+[reindeer9324] came back from vacation. Currently 6 reindeers are waiting
+[santa] helping elves done
+[elf9332] encountered a problem
+[elf9332] waiting for help. Currently 1 elves are waiting
+[elf9328] working for 4 seconds
+[elf9334] working for 3 seconds
+[elf9326] encountered a problem
+[elf9326] waiting for help. Currently 2 elves are waiting
+[elf9329] encountered a problem
+[elf9329] waiting for help. Currently 3 elves are waiting
+[elf9329] waking up santa
+[elf9329] working for 3 seconds
+[elf9331] encountered a problem
+[elf9331] santa not available, solving the problem on his own
+[elf9331] working for 4 seconds
+[santa] waking up
+[santa] helping elves for 2 seconds
+[reindeer9325] came back from vacation. Currently 7 reindeers are waiting
+[reindeer9320] came back from vacation. Currently 8 reindeers are waiting
+[santa] helping elves done
+[elf9327] encountered a problem
+[elf9327] waiting for help. Currently 1 elves are waiting
+[elf9326] working for 2 seconds
+[elf9330] encountered a problem
+[elf9330] waiting for help. Currently 2 elves are waiting
+[elf9333] encountered a problem
+[elf9333] waiting for help. Currently 3 elves are waiting
+[elf9333] waking up santa
+[elf9333] working for 3 seconds
+[elf9330] working for 3 seconds
+[santa] waking up
+[santa] helping elves for 1 seconds
+[reindeer9318] came back from vacation. Currently 9 reindeers are waiting
+[reindeer9318] waking up santa
+[reindeer9318] going on vacation for 7 seconds
+[reindeer9317] going on vacation for 6 seconds
+[reindeer9324] going on vacation for 5 seconds
+[reindeer9323] going on vacation for 8 seconds
+[reindeer9319] going on vacation for 7 seconds
+[reindeer9321] going on vacation for 7 seconds
+[reindeer9325] going on vacation for 8 seconds
+[reindeer9322] going on vacation for 9 seconds
+[reindeer9320] going on vacation for 8 seconds
+[santa] helping elves done
+[santa] waking up
+[santa] delivering toys for 4 seconds
+[elf9332] working for 2 seconds
+[elf9335] encountered a problem
+[elf9335] waiting for help. Currently 1 elves are waiting
+[elf9327] working for 4 seconds
+[elf9334] encountered a problem
+[elf9334] waiting for help. Currently 2 elves are waiting
+[elf9329] encountered a problem
+[elf9329] waiting for help. Currently 3 elves are waiting
+[elf9329] waking up santa
+[elf9329] working for 4 seconds
+[elf9334] working for 3 seconds
+[elf9335] working for 4 seconds
+[elf9328] encountered a problem
+[elf9328] santa not available, solving the problem on his own
+[elf9328] working for 3 seconds
+[elf9331] encountered a problem
+[elf9331] santa not available, solving the problem on his own
+[elf9331] working for 2 seconds
+[elf9326] encountered a problem
+[elf9326] santa not available, solving the problem on his own
+[elf9326] working for 3 seconds
+[elf9330] encountered a problem
+[elf9330] santa not available, solving the problem on his own
+[elf9330] working for 2 seconds
+[elf9333] encountered a problem
+[elf9333] santa not available, solving the problem on his own
+[elf9333] working for 2 seconds
+[elf9332] encountered a problem
+[elf9332] santa not available, solving the problem on his own
+[elf9332] working for 4 seconds
+[elf9331] encountered a problem
+[elf9331] santa not available, solving the problem on his own
+[elf9331] working for 4 seconds
+[elf9334] encountered a problem
+[elf9334] santa not available, solving the problem on his own
+[elf9334] working for 3 seconds
+[elf9328] encountered a problem
+[elf9328] santa not available, solving the problem on his own
+[elf9328] working for 4 seconds
+[elf9326] encountered a problem
+[elf9326] santa not available, solving the problem on his own
+[elf9326] working for 3 seconds
+[santa] delivering toys done. Total deliveries: 2
+[santa] waking up
+[santa] helping elves for 2 seconds
+[reindeer9324] came back from vacation. Currently 1 reindeers are waiting
+[reindeer9317] came back from vacation. Currently 2 reindeers are waiting
+[santa] helping elves done
+[elf9333] encountered a problem
+[elf9333] waiting for help. Currently 1 elves are waiting
+[elf9330] encountered a problem
+[elf9330] waiting for help. Currently 2 elves are waiting
+[elf9329] encountered a problem
+[elf9329] waiting for help. Currently 3 elves are waiting
+[elf9329] waking up santa
+[elf9329] working for 4 seconds
+[elf9333] working for 3 seconds
+[elf9335] encountered a problem
+[elf9335] santa not available, solving the problem on his own
+[elf9335] working for 4 seconds
+[santa] waking up
+[santa] helping elves for 1 seconds
+[reindeer9318] came back from vacation. Currently 3 reindeers are waiting
+[reindeer9319] came back from vacation. Currently 4 reindeers are waiting
+[reindeer9321] came back from vacation. Currently 5 reindeers are waiting
+[santa] helping elves done
+[elf9327] encountered a problem
+[elf9327] waiting for help. Currently 1 elves are waiting
+[elf9330] working for 4 seconds
+[elf9332] encountered a problem
+[elf9332] waiting for help. Currently 2 elves are waiting
+[elf9334] encountered a problem
+[elf9334] waiting for help. Currently 3 elves are waiting
+[elf9334] waking up santa
+[elf9334] working for 3 seconds
+[elf9332] working for 4 seconds
+[elf9331] encountered a problem
+[elf9331] santa not available, solving the problem on his own
+[elf9331] working for 2 seconds
+[elf9326] encountered a problem
+[elf9326] santa not available, solving the problem on his own
+[elf9326] working for 3 seconds
+[elf9327] working for 4 seconds
+[santa] waking up
+[santa] helping elves for 2 seconds
+[reindeer9323] came back from vacation. Currently 6 reindeers are waiting
+[reindeer9325] came back from vacation. Currently 7 reindeers are waiting
+[reindeer9320] came back from vacation. Currently 8 reindeers are waiting
+[reindeer9322] came back from vacation. Currently 9 reindeers are waiting
+[reindeer9322] waking up santa
+[reindeer9322] going on vacation for 5 seconds
+[reindeer9319] going on vacation for 5 seconds
+[reindeer9324] going on vacation for 8 seconds
+[reindeer9321] going on vacation for 9 seconds
+[reindeer9318] going on vacation for 7 seconds
+[reindeer9317] going on vacation for 7 seconds
+[reindeer9323] going on vacation for 5 seconds
+[reindeer9325] going on vacation for 8 seconds
+[reindeer9320] going on vacation for 6 seconds
+[santa] helping elves done
+[santa] waking up
+[santa] delivering toys for 3 seconds
+[elf9328] encountered a problem
+[elf9328] waiting for help. Currently 1 elves are waiting
+[elf9333] encountered a problem
+[elf9333] waiting for help. Currently 2 elves are waiting
+[elf9331] encountered a problem
+[elf9331] waiting for help. Currently 3 elves are waiting
+[elf9331] waking up santa
+[elf9331] working for 2 seconds
+[elf9333] working for 2 seconds
+[elf9328] working for 2 seconds
+[elf9329] encountered a problem
+[elf9329] santa not available, solving the problem on his own
+[elf9329] working for 4 seconds
+[elf9335] encountered a problem
+[elf9335] santa not available, solving the problem on his own
+[elf9335] working for 2 seconds
+[elf9334] encountered a problem
+[elf9334] santa not available, solving the problem on his own
+[elf9334] working for 2 seconds
+[elf9326] encountered a problem
+[elf9326] santa not available, solving the problem on his own
+[elf9326] working for 3 seconds
+[elf9330] encountered a problem
+[elf9330] santa not available, solving the problem on his own
+[elf9330] working for 2 seconds
+[elf9332] encountered a problem
+[elf9332] santa not available, solving the problem on his own
+[elf9332] working for 3 seconds
+[elf9327] encountered a problem
+[elf9327] santa not available, solving the problem on his own
+[elf9327] working for 2 seconds
+[elf9331] encountered a problem
+[elf9331] santa not available, solving the problem on his own
+[elf9331] working for 2 seconds
+[elf9333] encountered a problem
+[elf9333] santa not available, solving the problem on his own
+[elf9333] working for 2 seconds
+[elf9328] encountered a problem
+[elf9328] santa not available, solving the problem on his own
+[elf9328] working for 4 seconds
+[elf9335] encountered a problem
+[elf9335] santa not available, solving the problem on his own
+[elf9335] working for 2 seconds
+[santa] delivering toys done. Total deliveries: 3
+[santa] all deliveries done

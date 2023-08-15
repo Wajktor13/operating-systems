@@ -1,0 +1,33 @@
+BUFF BLOCK SIZE = 1:
+
+---------------
+execution time: 198719ns
+
+---------------
+execution time: 239325ns
+
+---------------
+execution time: 192398ns
+
+---------------
+execution time: 116677ns
+
+---------------
+execution time: 150469ns
+
+BUFF BLOCK SIZE = 1024:
+
+---------------
+execution time: 101208ns
+
+---------------
+execution time: 78887ns
+
+---------------
+execution time: 72525ns
+
+---------------
+execution time: 85639ns
+
+---------------
+execution time: 78717ns

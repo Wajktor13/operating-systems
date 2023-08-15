@@ -1,0 +1,23 @@
+LIB:
+---------------
+execution time: 162702ns
+---------------
+execution time: 106788ns
+---------------
+execution time: 128750ns
+---------------
+execution time: 188039ns
+---------------
+execution time: 153385ns
+
+SYS:
+---------------
+execution time: 24976ns
+---------------
+execution time: 19727ns
+---------------
+execution time: 37690ns
+---------------
+execution time: 53540ns
+---------------
+execution time: 21289ns

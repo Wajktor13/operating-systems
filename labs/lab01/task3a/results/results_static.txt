@@ -1,0 +1,194 @@
+
+REPL >>> created storage with size: 1024
+---------------
+execution time:
+real: 53841 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 0
+---------------
+execution time:
+real: 3308071 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 1
+---------------
+execution time:
+real: 4150929 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 2
+---------------
+execution time:
+real: 2533751 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 3
+---------------
+execution time:
+real: 1960820 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 4
+---------------
+execution time:
+real: 2103718 ns
+user: 1
+system: 0
+
+REPL >>> output has been written to block at index: 5
+---------------
+execution time:
+real: 3419029 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 6
+---------------
+execution time:
+real: 2746229 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 7
+---------------
+execution time:
+real: 2665398 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 8
+---------------
+execution time:
+real: 2471365 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 9
+---------------
+execution time:
+real: 3314513 ns
+user: 1
+system: 0
+
+REPL >>> output has been written to block at index: 10
+---------------
+execution time:
+real: 2832872 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 11
+---------------
+execution time:
+real: 2689744 ns
+user: 0
+system: 0
+
+REPL >>> output has been written to block at index: 12
+---------------
+execution time:
+real: 1923911 ns
+user: 0
+system: 0
+
+REPL >>>  36  79 858 dll_lib_loader.h
+
+---------------
+execution time:
+real: 26900 ns
+user: 0
+system: 0
+
+REPL >>>   15  113 5784 libbm.a
+
+---------------
+execution time:
+real: 15760 ns
+user: 0
+system: 0
+
+REPL >>>  137  327 3312 libbm.c
+
+---------------
+execution time:
+real: 16681 ns
+user: 0
+system: 0
+
+REPL >>>  45  69 864 libbm.h
+
+---------------
+execution time:
+real: 14107 ns
+user: 0
+system: 0
+
+REPL >>>    8   97 5544 libbm.o
+
+---------------
+execution time:
+real: 15328 ns
+user: 0
+system: 0
+
+REPL >>>    15   130 16560 libbm.so
+
+---------------
+execution time:
+real: 16181 ns
+user: 0
+system: 0
+
+REPL >>> deleted block at index: 1
+---------------
+execution time:
+real: 20087 ns
+user: 0
+system: 0
+
+REPL >>> deleted block at index: 2
+---------------
+execution time:
+real: 18635 ns
+user: 0
+system: 0
+
+REPL >>> deleted block at index: 3
+---------------
+execution time:
+real: 19276 ns
+user: 0
+system: 0
+
+REPL >>> deleted block at index: 4
+---------------
+execution time:
+real: 17463 ns
+user: 0
+system: 0
+
+REPL >>> deleted block at index: 5
+---------------
+execution time:
+real: 19036 ns
+user: 0
+system: 0
+
+REPL >>> storage has been destroyed
+---------------
+execution time:
+real: 22161 ns
+user: 0
+system: 0
+
+REPL >>> ---------------
+execution time:
+real: 28293 ns
+user: 0
+system: 0

@@ -1,0 +1,129 @@
+Polecenie "make" kompiluje programy "client.c" oraz "server.c". W pliku "shared.h" znajduja sie struktury
+i stale wspolne dla obu programow. Serwer uruchamiamy poleceniem "./server" ,a klient - "./client" .
+Kazdy z klientow powinien byc uruchamiany w osobnej konsoli.
+
+Logi serwera zapisywane są w pliku "server_logs.txt" .
+
+
+Przyklady wywolan poszczegolnych komend:
+
+    Polaczenie z nowymi klientami:
+
+        Klient:
+            [client] waiting for registration confirmation... 
+            [client] registered successfully
+            [client] enter command:
+
+        Serwer:
+            [server] waiting for messages from clients
+            [server] INIT received
+            [server] successfully connected with Client 1
+            [server] INIT handled
+            [server] waiting for messages from clients
+            [server] INIT received
+            [server] successfully connected with Client 2
+            [server] INIT handled
+            [server] waiting for messages from clients
+
+    Polecenie LIST:
+
+        Klient:
+            [client] enter command: LIST
+            [client] LIST message has been sent to server
+
+        Serwer:
+            [server] waiting for messages from clients
+            [server] LIST received
+            [server] List of registered clients:
+            [server] client 1: 11
+            [server] client 2: 12
+            [server] LIST handled
+            [server] waiting for messages from clients
+
+    Polecenie TO_ALL:
+
+        Klient1:
+            [client] enter command: 2ALL linux
+            [client] 2ALL message has been sent to server
+
+        Klient2:
+            [client] received 2ALL message from server with text: linux
+
+        Serwer:
+            [server] waiting for messages from clients
+            [server] TO_ALL received
+            [server] 2ALL message sent to client 1
+            [server] 2ALL message sent to client 2
+            [server] TO_ALL handled
+            [server] waiting for messages from clients
+
+    Polecenie TO_ONE:
+
+        Klient1:
+            [client] enter command: 2ONE 2 qq
+            [client] 2ONE message has been sent to client 2
+
+        Klient2:
+            [client] received 2ALL message from server with text: qq
+
+        Serwer:
+            [server] waiting for messages from clients
+            [server] TO_ONE received
+            [server] 2ONE message sent to client 2
+            [server] TO_ONE handled
+            [server] waiting for messages from clients
+
+
+    Polecenie STOP:
+
+        Klient:
+            [client] enter command: STOP
+            [client] shutting down...
+
+        Serwer:
+            [server] waiting for messages from clients
+            [server] STOP received
+            [server] Client 2 has disconnected
+            [server] STOP handled
+            [server] waiting for messages from clients
+
+
+Przykladowy zapis logu serwera:
+
+    [2023-4-19 15:44:31] [server] INIT received
+
+    [2023-4-19 15:44:31] [server] successfully connected with Client 1
+
+    [2023-4-19 15:44:31] [server] INIT handled
+
+    [2023-4-19 15:44:34] [server] INIT received
+
+    [2023-4-19 15:44:34] [server] successfully connected with Client 2
+
+    [2023-4-19 15:44:34] [server] INIT handled
+
+    [2023-4-19 15:44:38] [server] LIST received
+
+    [2023-4-19 15:44:38] [server] LIST handled
+
+    [2023-4-19 15:45:7] [server] TO_ALL received
+
+    [2023-4-19 15:45:7] [server] 2ALL message sent to client 1
+
+    [2023-4-19 15:45:7] [server] 2ALL message sent to client 2
+
+    [2023-4-19 15:45:7] [server] TO_ALL handled
+
+    [2023-4-19 15:45:25] [server] TO_ONE received
+
+    [2023-4-19 15:45:25] [server] 2ONE message sent to client 2
+
+    [2023-4-19 15:45:25] [server] To_ONE handled
+
+    [2023-4-19 15:45:38] [server] STOP received
+
+    [2023-4-19 15:45:38] [server] STOP handled
+
+    [2023-4-19 15:45:41] [server] STOP message sent to client 1
+
+    [2023-4-19 15:45:41] [server] server is shutting down...

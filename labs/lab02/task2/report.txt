@@ -1,0 +1,6 @@
+Program jest znacznie szybszy w przypadku czytania bloków po 1024 znaki.
+
+Raport weryfikacji działania programu:
+1) weryfikacja wzrokowa zakończona pozytywnie
+2) "Files /etc/passwd and result1.txt are identical"
+3) "Files result2.txt and result3.txt are identical"

@@ -1,0 +1,4 @@
+Znacznie szybszy (nawet kilkukrotnie) jest program wykorzystujacy implementacje "sys".
+Wynik porownania wyjscia programu z wynikiem polecenia tr ("make compare"):
+    "Files result_tr.in and result_replace.in are identical"
+Swiadczy to o tym, ze zadanie wykonano prawidlowo.

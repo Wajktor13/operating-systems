@@ -1,0 +1,7 @@
+Oba zadanie zostaly wykonane i dzialaja.
+
+Polecenie "make" kompiluje programy "client.c" oraz "server.c". W pliku "shared.h" znajduja sie struktury
+i stale wspolne dla obu programow. Serwer uruchamiamy poleceniem "./server" ,a klient - "./client" .
+Kazdy z klientow powinien byc uruchamiany w osobnej konsoli.
+
+Logi serwera zapisywane są w pliku "server_logs.txt" .

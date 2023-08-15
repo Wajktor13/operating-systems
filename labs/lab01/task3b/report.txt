@@ -1,0 +1,5 @@
+Aby uruchomić testy należy wpisać komendę "make run_tests".
+
+Analizując wyniki testów, można stwierdzić, że opcje optymalizacji
+mają znaczący wpływ na czasy wykonywania komend repl-a. Najwolniejszy
+jest repl kompilowany z opcją "-O0", a najszybszy - "-Os".

@@ -1,0 +1,89 @@
+Przykladowe uruchomienie serwera: ./server 5050 ./new           (port moze byc zajety, wtedy nalezy uzyc inny)
+Przykladowe uruchomienie klienta w przypadku polaczenia przez gniazdo UNIX: ./client ExampleNickname unix ./newSocket
+Przykladowe uruchomienie klienta w przypadku polaczenia przez siec: ./client ExampleNickname web 192.168.86.15 5050
+
+
+Przyklady wywolan poszczegolnych komend (wyniki takie same dla obu zadan):
+
+    Polaczenie z nowymi klientami:
+
+        WebClient:
+            ./client WebClient web 192.168.86.15 5050
+            [client WebClient] connected, waiting for commands
+
+        UnixSocketClient: 
+            ./client UnixSocketClient unix ./newSocket
+            [client UnixSocketClient] connected, waiting for commands
+
+        Serwer:
+            ./server 5050 ./newSocket
+            [server] listening on port 5050 and unix socket './newSocket'
+            [server] new client connected: WebClient
+            [server] new client connected: UnixSocketClient
+
+
+    Polecenie LIST:
+
+        WebClient:
+            LIST
+            [client WebClient] received:
+            WebClient
+            [client WebClient] received:
+            UnixSocketClien
+
+        Serwer:
+            [server] received message from WebClient of type: 1, text: 
+            [server] sent message of type 9 to client WebClient: WebClient
+            [server] sent message of type 9 to client WebClient: UnixSocketClient
+
+
+    Polecenie TO_ALL:
+
+        WebClient:
+            2ALL MESSAGE_EXAMPLE
+            [client WebClient] received:
+            WebClient: MESSAGE_EXAMPLE
+
+
+        UnixSocketClient: 
+            [client UnixSocketClient] received:
+            WebClient: MESSAGE_EXAMPLE
+
+        Serwer:
+            [server] received message from WebClient of type: 2, text: MESSAGE_EXAMPLE
+            [server] sent message of type 9 to client WebClient: WebClient: MESSAGE_EXAMPLE
+            [server] sent message of type 9 to client UnixSocketClien: WebClient: MESSAGE_EXAMPLE
+
+
+    Polecenie TO_ONE:
+
+        WebClient:
+            2ONE MESSAGE_EXAMPLE UnixSocketClient
+
+        UnixSocketClient: 
+            [client UnixSocketClient] received:
+            WebClient: MESSAGE_EXAMPLE
+
+        Serwer:
+            [server] received message from WebClient of type: 3, text: MESSAGE_EXAMPLE
+            [server] sent message of type 9 to client UnixSocketClien: WebClient: MESSAGE_EXAMPLE
+
+    Polecenie STOP:
+
+        WebClient:
+            STOP
+            [client WebClient] disconnected
+
+
+        Serwer:
+            [server] received message from WebClient of type: 0, text: 
+            [server] removed client: WebClient
+
+    Pingowanie:
+    
+        Serwer:
+        [server] pinging clients...
+        [server] received message from UnixSocketClient of type: 5, text: 
+        [server] received pong from: UnixSocketClient
+        [server] received message from WebClient of type: 5, text: 
+        [server] received pong from: WebClient

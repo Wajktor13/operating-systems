@@ -1,0 +1,3 @@
+Wykonano oba zadania.
+Aby uruchomic programy, nalezy uzyc komende 'make', a nastepnie './main' (w odpowiednich katalogach).
+Przyjeto, ze numer fryzury jest jednoczesnie czasem jej wykonania w sekundach.

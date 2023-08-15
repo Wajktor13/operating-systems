@@ -1,0 +1,2 @@
+Wyniki wywołania programu i podanego polecenia nie są takie same.
+Być może program nie ma uprawnień do wglądu do niektórych plików?
